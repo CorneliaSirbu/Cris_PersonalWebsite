@@ -1,0 +1,203 @@
+@font-face {
+  font-family: brandon-grotesque-light;
+  src: url(brandon-grotesque-light.otf);
+}
+@font-face {
+  font-family: PlayfairDisplayRegular;
+  src: url(PlayfairDisplayRegular.otf);
+}
+
+body{
+    font-family: brandon-grotesque-light;
+    background: #E5E5E5;
+}
+
+
+/*   HEADER   */
+
+header h1{
+    font-family: PlayfairDisplayRegular;
+    font-size: 36px;
+    filter: drop-shadow(0px 4px 4px #000);
+    font-weight: 500;
+    position: absolute;
+    width: 223px;
+    height: 70px;
+    left: 120px;
+    top: 28px;
+}
+header h3{
+    font-size: 18px;
+    font-weight: 330;
+    position: absolute;
+    width: 123px;
+    height: 26px;
+    left: 120px;
+    top: 77px;
+}
+nav ul{
+    position: absolute;
+    width: 443px;
+    height: 34px;
+    left: 754px;
+    top: 64px;
+}
+nav li{
+    list-style-type: none;
+    display: inline-block;
+    
+    padding: 5px 18px;
+    font-size: 24px;
+    font-weight: 330;
+    line-height: 34px;
+}
+nav li a{
+    text-decoration: none;
+    color: black;
+}
+
+
+/*  BODY  */
+
+#autoportret{
+    position: absolute;
+    width: 955px;
+    height: 955px;
+    left: 242px;
+    top: 125px;
+    padding-top: 15px;
+}
+body p{
+    position: absolute;
+    width: 953px;
+    height: 34px;
+    left: 243px;
+    top: 1130px;
+    
+    font-size: 24px;
+    font-weight: 330;
+    line-height: 34px;
+    text-align: center;
+}
+
+
+/*  FIRST SECTION   */
+#myEduHeader{
+    position: absolute;
+    width: 131px;
+    height: 34px;
+    left: 390px;
+    top: 1300px;
+    
+    font-size: 24px;
+    line-height: 34px;
+    text-align: center;
+}
+#story{
+    position: absolute;
+    width: 236px;
+    height: 160px;
+    left: 452px;
+    top: 1383px;
+}
+.title{
+    font-size: 18px;
+    line-height: 26px;
+}
+.subTitle{
+    font-size: 14px;
+    line-height: 20px;
+}
+.degree{
+    padding-top: 18px;
+}
+#time{
+    position: absolute;
+    width: 44px;
+    height: 135px;
+    left: 365px;
+    top: 1398px;
+}
+.chrono{
+    padding-bottom: 50px;
+}
+.vertLine {
+    position: absolute;
+    border-left: 2px solid #0905B0;
+    height: 220px;
+    width: 1px;
+    left: 432px;
+    top: 1378px;
+}
+
+/*  SECOND SECTION   */
+
+#secondSection{
+    position: absolute;
+    width: 323px;
+    height: 200px;
+    left: 832px;
+    top: 1300px;
+}
+section label{
+    padding-right: 50px;
+    width: 67px;
+    height: 26px;
+    font-size: 18px;
+    line-height: 26px;
+}
+
+#mySkillsHeader{
+    text-align: center;
+
+    font-size: 24px;
+    line-height: 34px;
+}
+#skills{
+    padding: 13px 10px;
+    text-align: center;
+}
+.blueDot{
+    width: 13px;
+    height: 13px;
+    background-color: #0905B0;
+    border-radius: 50%;
+    display: inline-block;
+}
+.simpleDot{
+    border: 1px solid #F15A24;
+    box-sizing: border-box;
+    border-radius: 50%;
+    display: inline-block;
+    width: 13px;
+    height: 13px;
+}
+
+
+/*  FOOTER  */
+
+footer div{
+    position: absolute;
+    width: 173px;
+    height: 41px;
+    left: 1000px;
+    top: 1790px;
+    
+}
+footer img{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    padding-right: 15px;
+}
+footer p{
+    position: absolute;
+    width: 954px;
+    height: 50px;
+    left: 223px;
+    top: 1876px;
+    
+    font-size: 12px;
+    line-height: 17px;
+    text-align: center;
+}
